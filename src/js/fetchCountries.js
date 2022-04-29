@@ -1,4 +1,3 @@
-import { Notify } from "notiflix";
 const BASE_URL = 'https://restcountries.com/v3.1/name'
 
 function fetchCountries(name) {
@@ -8,8 +7,6 @@ function fetchCountries(name) {
                 throw new Error(responce.status);
             }
             return responce.json();
-        }).catch(error => {
-            console.log(error);
         })
 }
 

@@ -37,13 +37,13 @@ body {
   padding: 0;
 }
 
-.country-list-item {
+.country-list__item {
   display: flex;
   justify-content: start;
   align-items: center;
 }
 
-.country-list-item:not(:last-child) {
+.country-list__item:not(:last-child) {
   margin-bottom: 10px;
 }
 
@@ -57,7 +57,7 @@ body {
   padding: 0;
 }
 
-.country-info__list-item:not(:last-child) {
+.country-info__item:not(:last-child) {
   margin-bottom: 20px;
 }
 

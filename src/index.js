@@ -48,7 +48,8 @@ function onMurkupList(country) {
         if (countries.length > 1 && countries.length <= 10) {
             const murkupList = countries.map(createMurkupList).join('');
             refs.countryList.insertAdjacentHTML('beforeend', murkupList);
-        }if (countries.length === 1) {
+        }
+        if (countries.length === 1) {
             const murkupInfo = countries.map(createMurkupInfo).join('');
             refs.countryList.insertAdjacentHTML('beforeend', murkupInfo);
         }
